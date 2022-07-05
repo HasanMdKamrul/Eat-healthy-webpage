@@ -35,7 +35,8 @@ section {
 }
 
 .header-image img {
-  width: 80%;
+  width: 100%;
+  padding: 10%;
 }
 
 .aboutme-image img {
@@ -100,16 +101,12 @@ section {
 
 .stat {
   display: flex;
-  gap: 5%;
+  justify-content: space-between;
+  align-items: center;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   border-radius: 20px;
   margin: 0 20%;
-  padding: 50px;
-}
-
-.stat div {
-  width: 33.33%;
-  padding-left: 9%;
+  height: 20px;
 }
 
 .footer {
