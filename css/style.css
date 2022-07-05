@@ -111,3 +111,19 @@ section {
   width: 33.33%;
   padding-left: 9%;
 }
+
+.footer {
+  margin-top: 80px;
+  display: block;
+  text-align: center;
+  background-color: black;
+  color: gray;
+}
+
+.footer span {
+  color: orange;
+}
+
+.footer h1 {
+  color: red;
+}
