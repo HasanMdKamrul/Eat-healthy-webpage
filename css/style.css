@@ -77,15 +77,22 @@ section {
   font-size: 20px;
 }
 
-.title img {
+.title-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.title-image img {
   width: 80%;
-  padding-left: 9%;
-  margin-top: 5%;
 }
 
 .recipies-title {
   display: flex;
   gap: 10%;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
@@ -93,6 +100,8 @@ section {
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   border-radius: 20px;
+  width: 40%;
+  height: 50%;
 }
 
 .title-text {
