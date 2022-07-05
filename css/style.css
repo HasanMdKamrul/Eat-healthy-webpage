@@ -1,0 +1,44 @@
+body {
+  font-family: "Baloo 2", cursive;
+}
+section {
+  display: flex;
+  padding: 5%;
+}
+
+.header {
+  background-image: url("../images/shapes/Frame 59.jpg");
+  background-repeat: no-repeat;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.header-text {
+  font-size: 30px;
+}
+.header-text span {
+  color: orange;
+}
+
+.header-text h1 {
+  font-size: 40px;
+}
+
+.header-text p {
+  color: gray;
+  margin-bottom: 30px;
+}
+
+.header-text a {
+  text-decoration: none;
+  padding: 10px 40px;
+  background-image: linear-gradient(#5a3f37, #2c7744);
+  border-radius: 20px;
+  color: #fff;
+}
+
+.header-image img {
+  width: 80%;
+}
