@@ -3,7 +3,10 @@ body {
 }
 section {
   display: flex;
-  padding: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .header {
@@ -62,4 +65,13 @@ section {
 .aboutme {
   background-image: url(../images/shapes/Frame 58.jpg);
   background-repeat: no-repeat;
+}
+
+.myrecipies {
+  display: block;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  color: gray;
+  font-size: 20px;
 }
